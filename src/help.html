@@ -124,16 +124,5 @@ docker pull cloudsmith.243364.xyz/public/repo/image:latest  # 拉取 Cloudsmith 
 <div class="footer">
     <p>Powered by Cloudflare Workers</p>
 </div>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const host = window.location.hostname;
-        const mainDomain = host.split('.').slice(-2).join('.');
-        const registryConfigElement = document.getElementById('registry-config');
-        const commandsElement = document.getElementById('commands');
-
-        registryConfigElement.innerHTML = registryConfigElement.innerHTML.replace(/243364.xyz/g, host);
-        commandsElement.innerHTML = commandsElement.innerHTML.replace(/243364.xyz/g, mainDomain);
-    });
-</script>
 </body>
 </html>
