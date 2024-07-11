@@ -18,7 +18,7 @@ const routes = {
   "ecr.243364.xyz": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.243364.xyz": dockerHub,
+  "d.243364.xyz": dockerHub,
 };
 
 function routeByHosts(host) {
